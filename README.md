@@ -4,7 +4,7 @@
 
 ## 下载与使用
 
-在 [Releases 页面](../../releases)下载 **`CodexQuotaBar-Portable.exe`**。这是约 71 MB 的自包含单文件，已经带有其运行所需的 .NET 环境。把它放在固定文件夹后双击，再打开 Codex 对话窗口，额度条就会出现在输入框附近。程序没有普通主窗口；可在系统托盘查看状态和退出。
+在 [Releases 页面](../../releases)下载 **`CodexQuotaBar-Portable.exe`**。这是约 71 MB 的自包含单文件，已经带有其运行所需的 .NET 环境。把它放在固定文件夹后双击，再打开 Codex 对话窗口，额度条就会出现在输入框附近。程序没有普通主窗口；可在系统托盘查看状态和退出。该程序下载并进行首次运行后，默认随Codex启动而自启动。
 
 电脑需要满足以下条件：Windows 10/11 64 位；已安装并登录 Codex 桌面应用，本机的 `codex.exe app-server` 可用。此 EXE 不包含 Codex 本身。
 
