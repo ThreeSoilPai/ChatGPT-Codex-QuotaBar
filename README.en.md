@@ -1,4 +1,4 @@
-# Quota Bar for Codex in the ChatGPT Desktop App (Portable)
+# Quota Bar for Codex in the ChatGPT Desktop App
 
 <a href="./README.md">中文</a> | <a href="./README.en.md">English</a>
 
