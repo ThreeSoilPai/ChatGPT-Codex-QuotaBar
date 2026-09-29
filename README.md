@@ -1,5 +1,7 @@
 # ChatGPT 桌面端（Codex） 额度条
 
+<a href="./README.md">中文</a> | <a href="./README.en.md">English</a>
+
 一个适用于 Windows 的轻量桌面工具，在 ChatGPT 桌面端（Codex） 输入框附近显示账户剩余额度。它读取本机 Codex App Server 的额度数据，不修改 Codex 安装文件，也不读取或保存登录令牌。
 
 ## 下载与使用
