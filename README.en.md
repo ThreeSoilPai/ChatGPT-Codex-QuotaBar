@@ -18,7 +18,8 @@ By default, double-clicking registers the app to start when you sign in, using W
 
 ## Features
 
-- Displays the remaining quota percentage and follows the window and input box for Codex in the ChatGPT desktop app.
+- Displays the remaining quota percentage, with the color gradually changing as the quota decreases.
+- follows the window and input box for Codex in the ChatGPT desktop app.
 - Hides automatically when you switch to another app, the input box is not visible, or its position cannot be determined reliably.
 - Refreshes quota data every 60 seconds. If the connection is interrupted, it shows a status instead of inventing a percentage.
 - Shows the current status and full reset time in the system tray.
