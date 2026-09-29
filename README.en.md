@@ -26,8 +26,6 @@ By default, double-clicking registers the app to start when you sign in, using W
 
 ## Build from source
 
-Requires Windows and the .NET 9 SDK:
-
 ```powershell
 dotnet publish .\src\CodexQuotaBar.Portable\CodexQuotaBar.Portable.csproj -c Release -o .\release
 ```
