@@ -1,0 +1,15 @@
+# .NET build output
+**/bin/
+**/obj/
+**/TestResults/
+*.user
+*.suo
+.vs/
+
+# Local release files. Published executables belong in GitHub Releases.
+release/
+
+# Local diagnostics
+*.log
+*.tmp
+*.dmp
