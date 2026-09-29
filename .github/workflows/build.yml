@@ -21,12 +21,14 @@ jobs:
           dotnet-version: '9.0.x'
       - name: Publish portable executable
         run: dotnet publish src/CodexQuotaBar.Portable/CodexQuotaBar.Portable.csproj -c Release -o output/portable
+      - name: Name portable download
+        run: Copy-Item output/portable/Codex剩余额度条.exe output/portable/CodexQuotaBar-Portable.exe
       - uses: actions/upload-artifact@v4
         with:
           name: codex-quota-bar-portable-windows
-          path: output/portable/Codex剩余额度条.exe
+          path: output/portable/CodexQuotaBar-Portable.exe
       - name: Publish GitHub Release
         if: startsWith(github.ref, 'refs/tags/v')
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create $env:GITHUB_REF_NAME output/portable/Codex剩余额度条.exe --title $env:GITHUB_REF_NAME --generate-notes
+        run: gh release create $env:GITHUB_REF_NAME output/portable/CodexQuotaBar-Portable.exe --title $env:GITHUB_REF_NAME --generate-notes

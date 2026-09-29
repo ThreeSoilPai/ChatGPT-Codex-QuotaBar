@@ -4,7 +4,7 @@
 
 ## 下载与使用
 
-在 [Releases 页面](../../releases)下载 **`Codex剩余额度条.exe`**。这是约 71 MB 的自包含单文件，已经带有它所需的 .NET 运行时。把它放在固定文件夹后双击，再打开 Codex 对话窗口，额度条就会出现在输入框附近。程序没有普通主窗口；可在系统托盘查看状态和退出。
+在 [Releases 页面](../../releases)下载 **`CodexQuotaBar-Portable.exe`**。这是约 71 MB 的自包含单文件，已经带有它所需的 .NET 运行时。把它放在固定文件夹后双击，再打开 Codex 对话窗口，额度条就会出现在输入框附近。程序没有普通主窗口；可在系统托盘查看状态和退出。
 
 电脑需要满足以下条件：Windows 10/11 64 位；已安装并登录 Codex 桌面应用，本机的 `codex.exe app-server` 可用。此 EXE 不包含 Codex 本身。
 
@@ -29,7 +29,7 @@
 dotnet publish .\src\CodexQuotaBar.Portable\CodexQuotaBar.Portable.csproj -c Release -o .\release
 ```
 
-生成的 `release/Codex剩余额度条.exe` 是便携版。推送 `v*` 版本标签时，GitHub Actions 会构建并发布这个 EXE 到 Releases 页面。
+生成的 `release/Codex剩余额度条.exe` 是便携版。推送 `v*` 版本标签时，GitHub Actions 会把它命名为 `CodexQuotaBar-Portable.exe` 并发布到 Releases 页面；两个名称对应同一个便携版程序。
 
 ## 常见问题
 
