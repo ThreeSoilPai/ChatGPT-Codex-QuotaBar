@@ -26,8 +26,6 @@
 
 ## 从源码构建
 
-需要 Windows 和 .NET 9 SDK：
-
 ```powershell
 dotnet publish .\src\CodexQuotaBar.Portable\CodexQuotaBar.Portable.csproj -c Release -o .\release
 ```
